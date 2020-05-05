@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "statics",
+  "info": {
+    "name": "Static"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "fields": {
+      "type": "dynamiczone",
+      "components": [
+        "static.static-field",
+        "static.image"
+      ]
+    }
+  }
+}

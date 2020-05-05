@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "articles",
+  "info": {
+    "name": "Article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "tips": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tips.tip"
+    },
+    "category": {
+      "model": "category"
+    },
+    "score": {
+      "type": "component",
+      "repeatable": true,
+      "component": "score.score"
+    }
+  }
+}

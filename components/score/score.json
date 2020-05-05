@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_score_scores",
+  "info": {
+    "name": "Score",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "integer"
+    }
+  }
+}

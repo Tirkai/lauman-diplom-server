@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "components_static_static_fields",
+  "info": {
+    "name": "TextField",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "text"
+    }
+  }
+}
