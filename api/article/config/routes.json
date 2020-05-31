@@ -49,17 +49,9 @@
             }
         },
         {
-            "method": "POST",
-            "path": "/articles/setScore",
-            "handler": "article.setScore",
-            "config": {
-                "policies": []
-            }
-        },
-        {
             "method": "GET",
-            "path": "/topScoredArticles",
-            "handler": "article.getTopScored",
+            "path": "/vote",
+            "handler": "article.vote",
             "config": {
                 "policies": []
             }

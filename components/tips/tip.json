@@ -7,11 +7,18 @@
   },
   "options": {},
   "attributes": {
-    "number": {
-      "type": "integer"
-    },
     "content": {
       "type": "richtext"
+    },
+    "index": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "common",
+        "important"
+      ]
     }
   }
 }

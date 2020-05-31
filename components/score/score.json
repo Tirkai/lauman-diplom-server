@@ -7,7 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "value": {
+    "upvote": {
+      "type": "integer"
+    },
+    "downvote": {
       "type": "integer"
     }
   }
